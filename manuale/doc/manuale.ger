@@ -1,0 +1,80 @@
+Documentazione
+/media/picchio/dati/picchio/mondo/scuola/2019-2020/5bit/documenti/manuale.ger
+Picchiottino Roberto per 5bit as 2018-2019
+4
+9
+0 0 1424 768
+3
+argomenti
+269.0
+116.0
+3
+id_argomento int
+nome varchar(255)
+descrizione text
+1
+id_argomento
+3
+padre
+padre
+relation7
+comandi
+670
+99
+4
+id_comando int
+nome varchar(255)
+destrizione text
+sintassi text
+1
+id_comando
+2
+relation7
+relation8
+esempi
+1080
+107
+2
+id int
+testo text
+1
+id
+1
+relation8
+3
+padre
+1
+369.0
+66.0
+0
+2
+argomenti
+1
+1
+argomenti
+1
+1
+relation7
+0
+477
+201
+0
+2
+comandi
+1
+N
+argomenti
+1
+1
+relation8
+0
+875
+108
+0
+2
+esempi
+1
+N
+comandi
+1
+1
