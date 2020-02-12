@@ -55,4 +55,14 @@ ALTER TABLE comandi ADD FOREIGN KEY (id_argomento) REFERENCES argomenti (id_argo
 
 ALTER TABLE esempi ADD FOREIGN KEY (id_comando) REFERENCES comandi (id_comando);
 
-
+-- Inserimento alcuni argomenti
+-- Informatica 
+INSERT INTO argomenti (nome,descrizione,id_padre) VALUES 
+        ("Informatica","Argomenti vari Info",1), -- ipotizzo id_argomento = 2 da verificare
+        ("Sistemi e reti","Argomenti vari SER",1),
+        ("Gestione e progetto","Argomenti vari GPOI",1);
+SELECT * FROM argomenti; 
+INSERT INTO argomenti (nome,descrizione,id_padre) VALUES 
+    ("SQL","Comandi SQL per gestione database",2),
+    ("PHP","Comandi PHP",2);
+    
