@@ -1,0 +1,10 @@
+.table {
+    margin: auto;
+    max-width: 50%;
+}
+
+h1 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}

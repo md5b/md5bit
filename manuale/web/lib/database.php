@@ -24,7 +24,7 @@ function get_html_table_from_query($sql, $classe=""){
 			$tmp_head .= incapsula($risultato->fetch_fields()[$i]->name, "th");
 			}
 		$tmp_head=incapsula($tmp_head, "tr");
-		$tmp_head=incapsula($tmp_head, "thead");
+		$tmp_head=incapsula($tmp_head, "thead", "class='thead-dark'");
 		$tmp_body=PHP_EOL;
         for($i=0; $i<$n_righe; $i++){
 			$row=$risultato->fetch_array();
