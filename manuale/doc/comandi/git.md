@@ -3,24 +3,24 @@
 		### Descrizione
 			### Comandi
 				#### Creazione percorso .Git
-					##### $git init
+					$git init
 				#### Clonare progetto 
-					##### $git clone http...
+					$git clone http...
 				#### Tree
-					##### $tree .
+					$tree .
 				#### Rimuovere percorso .Git
-					##### $rm -rf .git/
+					$rm -rf .git/
 				#### Add
-					##### $git add *
+					$git add *
 				#### Commit
-					##### $git commit -m "messaggio"
+					$git commit -m "messaggio"
 				#### Pull : per aggiornare percorso .Git locale tramite quello remoto
-					##### $git pull
+					$git pull
 				#### Push : per aggironare percorso remoto
-					##### $git push origin master
+					$git push origin master
 				#### Aprire interfaccia grafica
-					##### $qgit
+					$qgit
 				#### Per memorizzare credenziali
-					##### $git config --global credential.helper store
+					$git config --global credential.helper store
 
 
