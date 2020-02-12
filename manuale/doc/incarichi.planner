@@ -20,10 +20,10 @@
     </calendar>
   </calendars>
   <tasks>
-    <task id="1" name="Creazione database" note="Creazione del databse e tabelle tramite linguaggio SQL&#10;lun 03 feb 2020, 10:29&#10;" work="28800" start="20200203T000000Z" end="20200203T170000Z" work-start="20200203T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-    <task id="2" name="Recupero comandi da inserire" note="" work="28800" start="20200203T000000Z" end="20200203T170000Z" work-start="20200203T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-    <task id="3" name="Creazione applicazione in php" note="" work="28800" start="20200203T000000Z" end="20200203T170000Z" work-start="20200203T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-    <task id="4" name="Creare un pdf" note="" work="28800" start="20200203T000000Z" end="20200203T170000Z" work-start="20200203T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="1" name="Creazione database" note="Creazione del databse e tabelle tramite linguaggio SQL&#10;lun 03 feb 2020, 10:29&#10;" work="28800" start="20200203T000000Z" end="20200203T170000Z" work-start="20200203T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="2" name="Recupero comandi da inserire " note="" work="28800" start="20200203T000000Z" end="20200203T090820Z" work-start="20200203T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="3" name="Creazione applicazione in php" note="" work="28800" start="20200203T000000Z" end="20200203T100000Z" work-start="20200203T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="4" name="Creare un pdf" note="" work="28800" start="20200203T000000Z" end="20200203T093500Z" work-start="20200203T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
   </tasks>
   <resource-groups>
     <group id="1" name="Marcheting" admin-name="Giordano Antonio" admin-phone="" admin-email=""/>
@@ -36,7 +36,7 @@
     <resource group="3" id="3" name="De Gattis Jacopo" short-name="DGj" type="1" units="0" email="" note="" std-rate="0"/>
     <resource group="2" id="4" name="Dublanc Matteo" short-name="DM" type="1" units="0" email="" note="" std-rate="0"/>
     <resource group="1" id="5" name="Eloquente Marco" short-name="EM" type="1" units="0" email="" note="" std-rate="0"/>
-    <resource id="6" name="Ferriani Lorenzo" short-name="FL" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource group="1" id="6" name="Ferriani Lorenzo" short-name="FL" type="1" units="0" email="" note="" std-rate="0"/>
     <resource group="2" id="7" name="Gallo Samuele" short-name="GS" type="1" units="0" email="" note="" std-rate="0"/>
     <resource group="1" id="8" name="Giarrusso Isabel" short-name="GI" type="1" units="0" email="" note="" std-rate="0"/>
     <resource group="2" id="9" name="Giorla Mattia" short-name="GM" type="1" units="0" email="" note="" std-rate="0"/>
@@ -47,8 +47,25 @@
     <resource group="1" id="14" name="Singh Parmeet" short-name="SP" type="1" units="0" email="" note="" std-rate="0"/>
     <resource group="3" id="15" name="Viglino Rhemy" short-name="VR" type="1" units="0" email="" note="" std-rate="0"/>
     <resource group="2" id="16" name="Zavattaro Mathieu" short-name="ZM" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource group="2" id="17" name="Giordano Antonio" short-name="GA" type="1" units="0" email="" note="" std-rate="0"/>
   </resources>
   <allocations>
     <allocation task-id="1" resource-id="1" units="100"/>
+    <allocation task-id="2" resource-id="2" units="100"/>
+    <allocation task-id="3" resource-id="3" units="100"/>
+    <allocation task-id="2" resource-id="4" units="100"/>
+    <allocation task-id="2" resource-id="5" units="100"/>
+    <allocation task-id="4" resource-id="6" units="100"/>
+    <allocation task-id="3" resource-id="6" units="100"/>
+    <allocation task-id="4" resource-id="7" units="100"/>
+    <allocation task-id="2" resource-id="8" units="100"/>
+    <allocation task-id="2" resource-id="9" units="100"/>
+    <allocation task-id="4" resource-id="10" units="100"/>
+    <allocation task-id="4" resource-id="11" units="100"/>
+    <allocation task-id="3" resource-id="12" units="100"/>
+    <allocation task-id="2" resource-id="13" units="100"/>
+    <allocation task-id="3" resource-id="15" units="100"/>
+    <allocation task-id="4" resource-id="16" units="100"/>
+    <allocation task-id="2" resource-id="17" units="100"/>
   </allocations>
 </project>
