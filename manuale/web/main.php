@@ -5,14 +5,14 @@ include ('lib/database.php');
 include ('sub/funzioni.php');
 $page = "";
 $page .= get_html_head("Manuale");
-$page .= incapsula("Manuale", "h1");
+$page .= incapsula("Risultati ricerca", "h1");
 if(connetti_db()){
     $page .= commento ("connessione riuscita");
     $sql = "SELECT * FROM argomenti;";
     $a_capo = PHP_EOL;
     //$page .= incapsula("SQL: " . $a_capo . $sql, "pre");
     //$page .= get_html_select_from_query($sql);
-    $page .= get_html_table_from_query($sql, 'class="table"');
+    $page .= get_html_table_from_query($sql, 'class="table table-bordered"');
     //$mysqli->close();    
     }
 else{
