@@ -23,6 +23,7 @@
 				
 				##### Stampare un testo
 					echo "ciao";
+					print_r();
 				
 				##### Stampare una variabile
 					echo $parola;
@@ -38,7 +39,18 @@
 					
 				##### Ottenere valore dall'url
 					$_GET["start"];
+					
+			#### Funzioni Utili
+				
+				##### Inserire la data
+					date(" d/ m/ y h:i:s")
 
+				##### md5file($file)
+				
+				##### md5($parametro,[TRUE/FALSE])
+				
+				##### phpinfo()
+				
 			#### Collegare php al database
 
 				##### Includere un file 
