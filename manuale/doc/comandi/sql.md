@@ -27,7 +27,6 @@
 	mysql> use nomedb
 	Database changed;
 
-
 #### Creazione tabelle
 	CREATE TABLE nometable (
 	id int PRIMARY KEY AUTO_INCREMENT,
@@ -37,21 +36,15 @@
 #### Riempimento database
 	INSERT INTO nometable (campo) VALUES ('valore');
 
-	
-#### Collegamento tra tabelle
-##### Comando
-##### Descrizione
+	#### Collegamento tra tabella1 e tabella2
+	INSERT INTO tabella1 (campo, chiave, chiave, ecc..) VALUES ('valore'); 
 
 #### Interrogazione database
-##### Comando
-##### Descrizione
+	SELECT * FROM entità;
+	SELECT entità.campo, entità2.campo FROM entità, entità2 WHERE entità.id=entità.id_entità;
 
-#### Creazione doc LibreOffice
-##### Comando
-##### Descrizione
+#### doc LibreOffice
+	#apt-get install libreoffice-help-it libreoffice-l10n-it
+	#apt-get install libreoffice-mysql-connector
 
-#### Relazioni tabelle
-##### Comando
-##### Descrizione
 
-TODO= ...
