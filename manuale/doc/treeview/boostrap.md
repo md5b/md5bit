@@ -1,11 +1,12 @@
 # Treview in bootstrap
 
 ## Come crearla
-    Per creare un elementodella lista è necessario in primo luogo creare una lista. Per creare la lista è necessario un div di classe "treeview" e un id per indentificare la lista, al suo interno è necessario inserire un ul e al su interno tanti li di classe "list-group-item" e, sempre all'interno della classe bisogna mettere l'id della treeview di cui fa parte, inoltre all'interno della classe 
-
 ```html
-<pre>
-    <code>
+Per creare un elementodella lista è necessario in primo luogo creare una lista. 
+Per creare la lista è necessario un <div> di classe "treeview" e un id per indentificare la lista, al suo interno è necessario inserire un <ul> e al su interno tanti <li> di classe "list-group-item" e, sempre all'interno della classe bisogna mettere l'id della treeview di cui fa parte, inoltre all'interno della classe. 
+```
+## Codice
+```html
         <div id="treeview2" class="treeview">
             <ul class="list-group">
                 <li class="list-group-item node-treeview2" data-nodeid="0" style="color:undefined;background-color:undefined;">
@@ -37,6 +38,4 @@
                 </li>
             </ul>
         </div>
-    </code>
-</pre>
 ```
