@@ -30,7 +30,7 @@ INSERT INTO argomenti (nome,descrizione,id_padre) VALUES ("root","radice di tutt
 CREATE TABLE comandi (
       id_comando     int PRIMARY KEY AUTO_INCREMENT,
       nome     varchar(255),
-      destrizione     text,
+      descrizione     text,
       sintassi     text,
       id_argomento     int NOT NULL
 );
@@ -65,4 +65,7 @@ SELECT * FROM argomenti;
 INSERT INTO argomenti (nome,descrizione,id_padre) VALUES 
     ("SQL","Comandi SQL per gestione database",2),
     ("PHP","Comandi PHP",2);
+
+-- Inserisco alcuni comandi
+INSERT INTO comandi (nome,descrizione,sintassi,id_argomento) VALUES ("Crea database","Comando che ti crea il database","CREATE DATABASE <nome del database> CHARACTER SET <carattere>;");
     
